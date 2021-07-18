@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='localsonly',
     version='0.0.1',
-    packages=['localsonly'],
+    packages=find_packages(),
     install_requires = ["numpy", "scipy","qutip"],
     url='https://github.com/timevans/locals-only',
     license='',
