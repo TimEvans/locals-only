@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='localsonly',
     version='0.0.1',
-    packages=[''],
+    packages=['localsonly'],
     install_requires = ["numpy", "scipy","qutip"],
     url='https://github.com/timevans/locals-only',
     license='',
