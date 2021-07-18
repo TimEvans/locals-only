@@ -1,9 +1,10 @@
 from setuptools import setup
 
 setup(
-    name='locals-only',
+    name='localsonly',
     version='0.0.1',
     packages=[''],
+    install_requires = ["numpy", "scipy","qutip"],
     url='https://github.com/timevans/locals-only',
     license='',
     author='Tim Evans',
